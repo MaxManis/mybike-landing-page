@@ -1,0 +1,13 @@
+.top-nav {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 18px 18px;
+  gap: 30px;
+  justify-items: center;
+  align-items: center;
+
+  @include onDesktop {
+    grid-template-columns: 1fr 24px 24px;
+    gap: 40px;
+  }
+}

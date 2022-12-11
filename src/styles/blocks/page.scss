@@ -1,0 +1,42 @@
+//PAGE BLOCK:
+
+.page {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  position: relative;
+
+  &__body {
+    background: $main-bg-color;
+
+    &--with-menu {
+      overflow: hidden;
+    }
+  }
+
+  &__main {
+    @include container;
+  }
+
+  &__title {
+    display: table;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    color: $color-white;
+    margin: 0 auto 48px;
+
+    &--contacts {
+      font-weight: 700;
+      font-size: 48px;
+    }
+  }
+
+  &__section {
+    margin-bottom: 64px;
+
+    @include onDesktop {
+      margin-bottom: 104px;
+    }
+  }
+}

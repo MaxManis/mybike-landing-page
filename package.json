@@ -1,8 +1,8 @@
 {
-  "name": "gulp-boilerplate",
+  "name": "mybike-landing-page",
   "version": "1.0.0",
-  "description": "Frontend boilerplate based on gulp",
-  "main": "index.js",
+  "description": "Frontend mybike-landing-page",
+  "main": "src/scripts/main.js",
   "scripts": {
     "init": "mate-scripts init",
     "start": "mate-scripts start",
@@ -15,22 +15,22 @@
     "test": "npm run lint && npm run test:only"
   },
   "keywords": [],
-  "author": "Mate Academy",
+  "author": "maxbovtun@gmail.com",
   "license": "GPL-3.0",
   "devDependencies": {
     "@linthtml/linthtml": "^0.8.3",
     "@mate-academy/bemlint": "^0.1.1",
     "@mate-academy/eslint-config": "*",
     "@mate-academy/linthtml-config": "0.0.2",
-    "@mate-academy/scripts": "^0.2.0",
+    "@mate-academy/scripts": "^1.2.8",
     "@mate-academy/stylelint-config": "0.0.9",
     "colors": "^1.3.3",
     "eslint": "^5.16.0",
     "eslint-plugin-node": "^9.0.1",
     "gh-pages": "2.0.0",
     "gulp-htmllint": "0.0.16",
-    "node-sass": "^4.14.1",
     "parcel": "^1.12.4",
+    "sass": "^1.56.2",
     "stylelint": "^13.5.0",
     "stylelint-config-recommended-scss": "^3.3.0",
     "stylelint-scss": "^3.17.2"

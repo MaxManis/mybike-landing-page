@@ -1,0 +1,44 @@
+//GALLERY:
+
+.gallery {
+
+  &__img {
+    height: 131px;
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+    max-height: 100%;
+    margin-bottom: 16px;
+
+    transition: transform $transition-duration;
+
+    @include onDesktop {
+      height: 256px;
+      margin-bottom: 16px;
+    }
+
+    @include hover(transform, scale(1.02));
+  }
+
+  &__img-name {
+    color: $color-white;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 140%;
+
+    margin-bottom: 8px;
+  }
+
+  &__img-description {
+
+    color: $color-white;
+    font-size: 16px;
+    line-height: 140%;
+
+    margin-bottom: 32px;
+
+    @include onDesktop {
+      margin-bottom: 48px;
+    }
+  }
+}

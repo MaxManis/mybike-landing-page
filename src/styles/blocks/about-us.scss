@@ -1,0 +1,32 @@
+//ABOUT US BLOCK:
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include onDesktop {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -1.5px;
+    color: $color-white;
+    margin-bottom: 42px;
+  }
+
+  &__paragraph {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 140%;
+    color: $color-white;
+
+    &:not(:last-child) {
+      margin-bottom: 27px;
+    }
+  }
+}

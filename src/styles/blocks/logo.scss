@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+
+  &__img {
+    height: 45px;
+    -webkit-filter: drop-shadow($logo-shadow);
+    filter: drop-shadow($logo-shadow);
+
+    @include onDesktop {
+      height: 75px;
+    }
+  }
+}
